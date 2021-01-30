@@ -1,11 +1,11 @@
 :root {
-    --font: "Roboto Mono";
-    --background: #1d1f21;
-    --foreground: #c5c8c6;
-    --green: #b5bd68;
-    --red: #cc6666;
-    --orange: #f0c674;
-    --branch: 1px solid #a7a9be;
+    --font: "Fira Code";
+    --background: #2e3440;
+    --foreground: #d8dee9;
+    --green: #a3be8c;
+    --blue: #5e81ac;
+    --yellow: #ebcb8b;
+    --branch: 1px solid #4c566a;
 }
 
 html {
@@ -41,7 +41,7 @@ h1 {
     font-family: var(--font);
     font-size: 1rem;
     font-weight: normal;
-    color: var(--red);
+    color: var(--blue);
 }
 
 .tree > ul {
@@ -90,7 +90,7 @@ a {
 
 a:hover {
     color: var(--background);
-    background: var(--orange);
+    background: var(--yellow);
 }
 
 form h1 {
