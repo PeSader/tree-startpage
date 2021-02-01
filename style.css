@@ -1,5 +1,7 @@
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css);
+
 :root {
-    --font: "Fira Code Medium";
+    --font: "Fira Code";
     --background: #2e3440;
     --foreground: #d8dee9;
     --green: #a3be8c;
@@ -10,6 +12,7 @@
 
 html {
     font-size: 20px;
+    font-weight: 500;
 }
 
 body {
@@ -40,7 +43,7 @@ h1 {
     display: inline;
     font-family: var(--font);
     font-size: 1rem;
-    font-weight: normal;
+    /* font-weight: normal; */
     color: var(--blue);
 }
 
@@ -89,6 +92,11 @@ a {
 }
 
 a:hover {
+    color: var(--background);
+    background: var(--yellow);
+}
+
+*:focus {
     color: var(--background);
     background: var(--yellow);
 }
